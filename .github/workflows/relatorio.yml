@@ -1,0 +1,46 @@
+name: Relatório semanal de commits
+
+on:
+  schedule:
+    - cron: "47 11 * * 1"   # toda segunda-feira às 08:47 (horário de Brasília)
+  workflow_dispatch:         # botão "Run workflow" para gerar na hora
+
+permissions:
+  contents: read
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    env:
+      COMMITS_TOKEN: ${{ secrets.COMMITS_TOKEN }}
+      INICIO: ${{ vars.INICIO || '2026-10-05' }}
+      REPORT_REPO: ${{ vars.REPORT_REPO || format('{0}/jogos_digitais_2026-1-relatorios', github.repository_owner) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar matplotlib
+        run: pip install --quiet matplotlib
+
+      - name: Gerar relatório
+        run: python3 -I scripts/relatorio.py --saida relatorio
+
+      - name: Publicar no repositório privado
+        run: |
+          git clone --depth 1 "https://x-access-token:${COMMITS_TOKEN}@github.com/${REPORT_REPO}.git" destino
+          DATA=$(TZ=America/Sao_Paulo date +%Y-%m-%d)
+          mkdir -p "destino/historico/$DATA"
+          cp relatorio/README.md relatorio/*.png relatorio/dados.csv destino/
+          cp relatorio/README.md relatorio/*.png relatorio/dados.csv "destino/historico/$DATA/"
+          cd destino
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Relatório de $DATA" || echo "Sem mudanças"
+          git push
+
+      - name: Abrir issue de alerta
+        env:
+          GH_TOKEN: ${{ secrets.COMMITS_TOKEN }}
+        run: |
+          DATA=$(TZ=America/Sao_Paulo date +%d/%m/%Y)
+          gh issue create -R "$REPORT_REPO" --title "Relatório de commits — $DATA" --body-file relatorio/alerta.md

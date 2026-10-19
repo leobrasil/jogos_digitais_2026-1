@@ -1,0 +1,64 @@
+name: Validar cadastro
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: cadastro
+  cancel-in-progress: false
+
+jobs:
+  validar:
+    if: contains(github.event.issue.body, '### Repositório do projeto')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar dados
+        id: validar
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          PROFESSOR: ${{ github.repository_owner }}
+          COMMITS_TOKEN: ${{ secrets.COMMITS_TOKEN }}
+        run: |
+          if [ -z "$COMMITS_TOKEN" ]; then
+            echo "O secret COMMITS_TOKEN não está configurado neste repositório." >&2
+            exit 1
+          fi
+          python3 -I scripts/cadastro.py
+
+      - name: Salvar cadastro.json
+        if: steps.validar.outputs.status == 'ok'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cadastro.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Cadastro da issue #${{ github.event.issue.number }}"
+            git pull --rebase origin "${{ github.event.repository.default_branch }}"
+            git push
+          fi
+
+      - name: Responder na issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUM: ${{ github.event.issue.number }}
+          STATUS: ${{ steps.validar.outputs.status }}
+        run: |
+          gh label create cadastrado --color 0E8A16 --description "Cadastro confirmado" 2>/dev/null || true
+          gh label create pendente --color D93F0B --description "Cadastro com pendências" 2>/dev/null || true
+          gh issue comment "$NUM" --body-file resultado.md
+          if [ "$STATUS" = "ok" ]; then
+            gh issue edit "$NUM" --add-label cadastrado --remove-label pendente || true
+            gh issue close "$NUM" --reason completed || true
+          else
+            gh issue edit "$NUM" --add-label pendente --remove-label cadastrado || true
+            gh issue reopen "$NUM" 2>/dev/null || true
+          fi

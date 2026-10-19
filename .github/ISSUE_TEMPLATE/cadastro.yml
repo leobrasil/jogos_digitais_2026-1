@@ -1,0 +1,50 @@
+name: Cadastrar projeto
+description: Cadastre o repositório do seu projeto e os integrantes do grupo.
+title: "[Cadastro] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Preencha **uma única vez por grupo**. Se precisar corrigir algo depois, edite esta mesma issue.
+
+        Antes de enviar, se o seu repositório for **privado**, adicione o professor (`leobrasil`) como colaborador em *Settings → Collaborators → Add people*.
+
+        Os commits são contados **por aluno**, pelo usuário do GitHub. Cada integrante precisa fazer commits com a própria conta.
+  - type: dropdown
+    id: turma
+    attributes:
+      label: Turma
+      options:
+        - 4J11
+        - 4J12
+        - 4H11
+        - 4H12
+    validations:
+      required: true
+  - type: input
+    id: repositorio
+    attributes:
+      label: Repositório do projeto
+      description: Link completo do repositório no GitHub.
+      placeholder: https://github.com/usuario/nome-do-repositorio
+    validations:
+      required: true
+  - type: input
+    id: jogo
+    attributes:
+      label: Nome do jogo
+      description: Opcional.
+    validations:
+      required: false
+  - type: textarea
+    id: integrantes
+    attributes:
+      label: Integrantes
+      description: |
+        Um integrante por linha, no formato **Nome completo; usuário do GitHub**.
+        Se fizer o projeto sozinho, coloque só você.
+      placeholder: |
+        Maria da Silva; mariasilva
+        João Souza; joaosouza-dev
+    validations:
+      required: true
