@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "repo": "leobrasil/progSist2-2026-1",
+    "turma": "4J11",
+    "jogo": "teste",
+    "issue": 1,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "leandro pupo",
+        "github": "leobrasil"
+      }
+    ],
+    "atualizado": "2026-10-19 22:06"
+  }
+]
