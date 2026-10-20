@@ -10,27 +10,42 @@ permissions:
 
 jobs:
   relatorio:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       COMMITS_TOKEN: ${{ secrets.COMMITS_TOKEN }}
       INICIO: ${{ vars.INICIO || '2026-10-05' }}
       REPORT_REPO: ${{ vars.REPORT_REPO || format('{0}/jogos_digitais_2026-1-relatorios', github.repository_owner) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
 
       - name: Instalar matplotlib
-        run: pip install --quiet matplotlib
+        run: python -m pip install --quiet matplotlib
 
       - name: Gerar relatório
-        run: python3 -I scripts/relatorio.py --saida relatorio
+        run: |
+          if [ -z "$COMMITS_TOKEN" ]; then
+            echo "::error::O secret COMMITS_TOKEN não está configurado neste repositório."
+            exit 1
+          fi
+          python scripts/relatorio.py --saida relatorio
 
       - name: Publicar no repositório privado
         run: |
-          git clone --depth 1 "https://x-access-token:${COMMITS_TOKEN}@github.com/${REPORT_REPO}.git" destino
+          if ! git clone --depth 1 "https://x-access-token:${COMMITS_TOKEN}@github.com/${REPORT_REPO}.git" destino; then
+            echo "::error::Não consegui acessar o repositório ${REPORT_REPO}. Confira se ele existe, se tem pelo menos um arquivo (README) e se o token tem a permissão repo."
+            exit 1
+          fi
           DATA=$(TZ=America/Sao_Paulo date +%Y-%m-%d)
           mkdir -p "destino/historico/$DATA"
-          cp relatorio/README.md relatorio/*.png relatorio/dados.csv destino/
-          cp relatorio/README.md relatorio/*.png relatorio/dados.csv "destino/historico/$DATA/"
+          for f in relatorio/README.md relatorio/dados.csv relatorio/*.png; do
+            [ -f "$f" ] || continue
+            cp "$f" destino/
+            cp "$f" "destino/historico/$DATA/"
+          done
           cd destino
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
