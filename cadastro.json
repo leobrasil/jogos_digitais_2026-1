@@ -94,6 +94,24 @@
     "atualizado": "2026-10-21 08:15"
   },
   {
+    "repo": "sasa-jpg/jogos-digitais-",
+    "turma": "4H11",
+    "jogo": "As Aventuras Do Caramelito",
+    "issue": 8,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Lara Siqueira Goes Arthuso",
+        "github": "LaraArthuso"
+      },
+      {
+        "nome": "Sabrina Miyasaki",
+        "github": "sasa-jpg"
+      }
+    ],
+    "atualizado": "2026-10-21 08:26"
+  },
+  {
     "repo": "CAIO1234-svg/JogoReabilitacao",
     "turma": "4J11",
     "jogo": "PEDALA",
