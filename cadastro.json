@@ -148,6 +148,28 @@
     "atualizado": "2026-10-21 08:26"
   },
   {
+    "repo": "drini11/ChronoContraOTempo",
+    "turma": "4H12",
+    "jogo": "Chrono Contra O Tempo",
+    "issue": 14,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "João Pedro Pizarro Buldrini",
+        "github": "drini11"
+      },
+      {
+        "nome": "João Vitor Almeida",
+        "github": "jvalmeidas"
+      },
+      {
+        "nome": "Rodrigo Oliveira Barbosa",
+        "github": "rodrigoxp1"
+      }
+    ],
+    "atualizado": "2026-10-21 12:08"
+  },
+  {
     "repo": "gabriel-munozz/Balao-no-ar",
     "turma": "4H12",
     "jogo": "Balão no ar",
