@@ -190,6 +190,20 @@
     "atualizado": "2026-10-21 08:22"
   },
   {
+    "repo": "domifmelo/Equilix",
+    "turma": "4J11",
+    "jogo": "Equilix",
+    "issue": 13,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Domingos Melo",
+        "github": "domifmelo"
+      }
+    ],
+    "atualizado": "2026-10-21 10:43"
+  },
+  {
     "repo": "leobrasil/progSist2-2026-1",
     "turma": "4J11",
     "jogo": "teste",
