@@ -94,6 +94,20 @@
     "atualizado": "2026-10-21 08:15"
   },
   {
+    "repo": "CAIO1234-svg/JogoReabilitacao",
+    "turma": "4J11",
+    "jogo": "PEDALA",
+    "issue": 7,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Caio Yukio Yazawa",
+        "github": "CAIO1234-svg"
+      }
+    ],
+    "atualizado": "2026-10-21 08:22"
+  },
+  {
     "repo": "leobrasil/progSist2-2026-1",
     "turma": "4J11",
     "jogo": "teste",
