@@ -1,5 +1,27 @@
 [
   {
+    "repo": "babs162006/projeto_jogos_digitais",
+    "turma": "4H11",
+    "jogo": "Recovery Road",
+    "issue": 4,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Bárbara Diogo Passos",
+        "github": "babs162006"
+      },
+      {
+        "nome": "Janaína Diogo Passos",
+        "github": "janaina-passos"
+      },
+      {
+        "nome": "Laura Rocha Yaguiu",
+        "github": "laurayaguiu"
+      }
+    ],
+    "atualizado": "2026-10-21 08:20"
+  },
+  {
     "repo": "bragatto-tec/proj_gametec",
     "turma": "4H11",
     "jogo": "RehabCar",
