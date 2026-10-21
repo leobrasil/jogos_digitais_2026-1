@@ -1,5 +1,23 @@
 [
   {
+    "repo": "bragatto-tec/proj_gametec",
+    "turma": "4H11",
+    "jogo": "RehabCar",
+    "issue": 3,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Guilherme Miyamoto Bragatto",
+        "github": "bragatto-tec"
+      },
+      {
+        "nome": "Eduardo Kenzo Okada",
+        "github": "EduardoOkada"
+      }
+    ],
+    "atualizado": "2026-10-21 08:16"
+  },
+  {
     "repo": "lari-sato/projeto-jogos",
     "turma": "4H11",
     "jogo": "Entre Flores: Jardim Terapêutico",
