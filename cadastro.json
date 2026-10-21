@@ -1,5 +1,23 @@
 [
   {
+    "repo": "ackanni/Projeto-Reabilitacao",
+    "turma": "4H11",
+    "jogo": "Drive Till Dawn",
+    "issue": 6,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "André Cintra Kanni",
+        "github": "ackanni"
+      },
+      {
+        "nome": "Bruno Cesar Gouvêa Malagoli",
+        "github": "BrunoCGM"
+      }
+    ],
+    "atualizado": "2026-10-21 08:22"
+  },
+  {
     "repo": "babs162006/projeto_jogos_digitais",
     "turma": "4H11",
     "jogo": "Recovery Road",
