@@ -90,6 +90,28 @@
     "atualizado": "2026-10-21 08:42"
   },
   {
+    "repo": "GiovannaFChin/HandGripShooter",
+    "turma": "4H11",
+    "jogo": "HandGrip Shooter",
+    "issue": 15,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Giovanna Chin",
+        "github": "GiovannaFChin"
+      },
+      {
+        "nome": "Joel Tambo",
+        "github": "SpanishCodes4Life"
+      },
+      {
+        "nome": "Giovanna Harumi",
+        "github": "Giovannahmt"
+      }
+    ],
+    "atualizado": "2026-10-21 15:02"
+  },
+  {
     "repo": "lari-sato/projeto-jogos",
     "turma": "4H11",
     "jogo": "Entre Flores: Jardim Terapêutico",
