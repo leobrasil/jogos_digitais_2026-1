@@ -1,5 +1,23 @@
 [
   {
+    "repo": "lari-sato/projeto-jogos",
+    "turma": "4H11",
+    "jogo": "Entre Flores: Jardim Terapêutico",
+    "issue": 2,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Julia Santos Oliveira",
+        "github": "juliasantosoliveira"
+      },
+      {
+        "nome": "Larissa Yuri Sato",
+        "github": "lari-sato"
+      }
+    ],
+    "atualizado": "2026-10-21 08:15"
+  },
+  {
     "repo": "leobrasil/progSist2-2026-1",
     "turma": "4J11",
     "jogo": "teste",
