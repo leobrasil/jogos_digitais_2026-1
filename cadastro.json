@@ -40,6 +40,24 @@
     "atualizado": "2026-10-21 08:16"
   },
   {
+    "repo": "Enzo-B-Proenca/Memento",
+    "turma": "4H11",
+    "jogo": "Memento",
+    "issue": 5,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Enzo Benedetto Proença",
+        "github": "Enzo-B-Proenca"
+      },
+      {
+        "nome": "Letícia Moraes Gutierrez de Oliveira",
+        "github": "LeticiaMoraesG"
+      }
+    ],
+    "atualizado": "2026-10-21 08:20"
+  },
+  {
     "repo": "lari-sato/projeto-jogos",
     "turma": "4H11",
     "jogo": "Entre Flores: Jardim Terapêutico",
