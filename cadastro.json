@@ -76,6 +76,20 @@
     "atualizado": "2026-10-21 08:20"
   },
   {
+    "repo": "EspadaDeArthur11/therabow-project",
+    "turma": "4H11",
+    "jogo": "TheraBow",
+    "issue": 9,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Felipe Viviani Schulze",
+        "github": "EspadaDeArthur11"
+      }
+    ],
+    "atualizado": "2026-10-21 08:42"
+  },
+  {
     "repo": "lari-sato/projeto-jogos",
     "turma": "4H11",
     "jogo": "Entre Flores: Jardim Terapêutico",
