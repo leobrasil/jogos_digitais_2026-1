@@ -262,6 +262,24 @@
     "atualizado": "2026-10-19 22:06"
   },
   {
+    "repo": "ArturGuarnieri/training-my-memory",
+    "turma": "4J12",
+    "jogo": "Training My Memory",
+    "issue": 21,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Artur Guarnieri do Amaral Rodrigues",
+        "github": "ArturGuarnieri"
+      },
+      {
+        "nome": "Pedro Guilherme Jardim da Silva",
+        "github": "Pedro-Guilhermee"
+      }
+    ],
+    "atualizado": "2026-10-22 22:11"
+  },
+  {
     "repo": "LuBasacchi/Fisioterapia-pulmonar-game",
     "turma": "4J12",
     "jogo": "Sopro nas Alturas",
