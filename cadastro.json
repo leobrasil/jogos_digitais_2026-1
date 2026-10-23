@@ -284,6 +284,28 @@
     "atualizado": "2026-10-19 22:06"
   },
   {
+    "repo": "tomygoldboimel/jogosDigitais",
+    "turma": "4J11",
+    "jogo": "",
+    "issue": 25,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Tomy Goldberg Boimel",
+        "github": "tomygoldboimel"
+      },
+      {
+        "nome": "Yuri Milliet da Silva",
+        "github": "yurimilliet"
+      },
+      {
+        "nome": "Renan Garrido",
+        "github": "ReGarrido03"
+      }
+    ],
+    "atualizado": "2026-10-22 22:29"
+  },
+  {
     "repo": "ArturGuarnieri/training-my-memory",
     "turma": "4J12",
     "jogo": "Training My Memory",
