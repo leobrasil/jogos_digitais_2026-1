@@ -260,5 +260,23 @@
       }
     ],
     "atualizado": "2026-10-19 22:06"
+  },
+  {
+    "repo": "LuBasacchi/Fisioterapia-pulmonar-game",
+    "turma": "4J12",
+    "jogo": "Sopro nas Alturas",
+    "issue": 17,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Luis Felipe Basacchi Darre",
+        "github": "LuBasacchi"
+      },
+      {
+        "nome": "Otto Martins Mota",
+        "github": "atoMottO"
+      }
+    ],
+    "atualizado": "2026-10-22 22:06"
   }
 ]
