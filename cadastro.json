@@ -298,6 +298,24 @@
     "atualizado": "2026-10-22 22:06"
   },
   {
+    "repo": "matheusmalicia/Projeto-Reabilitacao",
+    "turma": "4J12",
+    "jogo": "MackRun - Fuga do Professor",
+    "issue": 22,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Matheus Ramalho Malicia",
+        "github": "matheusmalicia"
+      },
+      {
+        "nome": "Matheus Alonso Varjão",
+        "github": "matheusvarjao"
+      }
+    ],
+    "atualizado": "2026-10-22 22:12"
+  },
+  {
     "repo": "Pinkpie186/recode-iot-libgdx",
     "turma": "4J12",
     "jogo": "Recode",
