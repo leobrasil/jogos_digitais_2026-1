@@ -278,5 +278,19 @@
       }
     ],
     "atualizado": "2026-10-22 22:06"
+  },
+  {
+    "repo": "Pinkpie186/recode-iot-libgdx",
+    "turma": "4J12",
+    "jogo": "Recode",
+    "issue": 18,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Giulia Barros Gondim",
+        "github": "Pinkpie186"
+      }
+    ],
+    "atualizado": "2026-10-22 22:07"
   }
 ]
