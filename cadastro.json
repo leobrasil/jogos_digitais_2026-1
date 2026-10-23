@@ -298,6 +298,24 @@
     "atualizado": "2026-10-22 22:06"
   },
   {
+    "repo": "LucasTkoLago007/Projeto_Jogos-Digitais_artrose",
+    "turma": "4J12",
+    "jogo": "caça asfour",
+    "issue": 23,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Lucas Lago",
+        "github": "LucasTkoLago007"
+      },
+      {
+        "nome": "Caio Mussi",
+        "github": "Caio1102"
+      }
+    ],
+    "atualizado": "2026-10-22 22:18"
+  },
+  {
     "repo": "matheusmalicia/Projeto-Reabilitacao",
     "turma": "4J12",
     "jogo": "MackRun - Fuga do Professor",
