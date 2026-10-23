@@ -170,6 +170,28 @@
     "atualizado": "2026-10-21 08:26"
   },
   {
+    "repo": "CauaPero/projeto-arduino-subsurf",
+    "turma": "4H12",
+    "jogo": "",
+    "issue": 24,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Gabriela França Lagos",
+        "github": "gabriela-lagos"
+      },
+      {
+        "nome": "Cauã Pereira Rodrigues",
+        "github": "CauaPero"
+      },
+      {
+        "nome": "Davi Barros Figueredo de Paiva",
+        "github": "dddapx"
+      }
+    ],
+    "atualizado": "2026-10-22 22:19"
+  },
+  {
     "repo": "drini11/ChronoContraOTempo",
     "turma": "4H12",
     "jogo": "Chrono Contra O Tempo",
