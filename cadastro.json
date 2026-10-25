@@ -256,6 +256,20 @@
     "atualizado": "2026-10-21 08:22"
   },
   {
+    "repo": "Davidss1988/ConstelacaoEmMovimento",
+    "turma": "4J11",
+    "jogo": "Constelação em Movimeto",
+    "issue": 26,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "David Rodrigues de Oliveira",
+        "github": "Davidss1988"
+      }
+    ],
+    "atualizado": "2026-10-25 18:09"
+  },
+  {
     "repo": "domifmelo/Equilix",
     "turma": "4J11",
     "jogo": "Equilix",
