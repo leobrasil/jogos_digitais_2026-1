@@ -324,6 +324,24 @@
     "atualizado": "2026-10-26 19:54"
   },
   {
+    "repo": "Gu1lz/jogosdigitaisprojeto",
+    "turma": "4J11",
+    "jogo": "Head Rush",
+    "issue": 32,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Guilherme Leite",
+        "github": "Gu1lz"
+      },
+      {
+        "nome": "DANIEL ZACHARIAS BITTAR ATUI",
+        "github": "danielzba-cmd"
+      }
+    ],
+    "atualizado": "2026-10-26 20:13"
+  },
+  {
     "repo": "julialonghi/Projeto-de-Jogos",
     "turma": "4J11",
     "jogo": "Maze Fingers",
