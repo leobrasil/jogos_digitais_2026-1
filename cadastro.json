@@ -324,6 +324,24 @@
     "atualizado": "2026-10-26 19:54"
   },
   {
+    "repo": "julialonghi/Projeto-de-Jogos",
+    "turma": "4J11",
+    "jogo": "Maze Fingers",
+    "issue": 31,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Ana Lessa Ferreira",
+        "github": "analessaf"
+      },
+      {
+        "nome": "Júlia Oliveira Longhi",
+        "github": "julialonghi"
+      }
+    ],
+    "atualizado": "2026-10-26 20:09"
+  },
+  {
     "repo": "Kenzo-Ochida/TrabalhoJogosDigitais",
     "turma": "4J11",
     "jogo": "Corrida de Desvio",
