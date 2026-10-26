@@ -316,6 +316,28 @@
     "atualizado": "2026-10-19 22:06"
   },
   {
+    "repo": "matheus-sdb/JogosDigitais2",
+    "turma": "4J11",
+    "jogo": "TrioTiles",
+    "issue": 29,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Matheus Santiago de Brito",
+        "github": "matheus-sdb"
+      },
+      {
+        "nome": "Lucas Hiroyuki Omine",
+        "github": "LucasOmine"
+      },
+      {
+        "nome": "[LEONARDO GUEDES SERRA DE SANT’ANA",
+        "github": "leoguedes77"
+      }
+    ],
+    "atualizado": "2026-10-26 19:44"
+  },
+  {
     "repo": "tomygoldboimel/jogosDigitais",
     "turma": "4J11",
     "jogo": "",
