@@ -302,6 +302,20 @@
     "atualizado": "2026-10-26 19:39"
   },
   {
+    "repo": "Kenzo-Ochida/TrabalhoJogosDigitais",
+    "turma": "4J11",
+    "jogo": "Corrida de Desvio",
+    "issue": 28,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Vitor Kenzo Martins Ochida",
+        "github": "Kenzo-Ochida"
+      }
+    ],
+    "atualizado": "2026-10-26 19:51"
+  },
+  {
     "repo": "leobrasil/progSist2-2026-1",
     "turma": "4J11",
     "jogo": "teste",
