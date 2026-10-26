@@ -284,6 +284,24 @@
     "atualizado": "2026-10-21 10:43"
   },
   {
+    "repo": "Dovas067/NeuroSync",
+    "turma": "4J11",
+    "jogo": "NeuroSync",
+    "issue": 27,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Joaquim Antonio Iervolino Cunha",
+        "github": "Dovas067"
+      },
+      {
+        "nome": "Higor Pereira",
+        "github": "higor7pereira"
+      }
+    ],
+    "atualizado": "2026-10-26 19:39"
+  },
+  {
     "repo": "leobrasil/progSist2-2026-1",
     "turma": "4J11",
     "jogo": "teste",
