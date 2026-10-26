@@ -410,6 +410,24 @@
     "atualizado": "2026-10-26 19:44"
   },
   {
+    "repo": "riquezlvs/SpiroFlyGame",
+    "turma": "4J11",
+    "jogo": "SpiroFly",
+    "issue": 33,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "João Henrique Nascimento",
+        "github": "riquezlvs"
+      },
+      {
+        "nome": "Levi Guerra",
+        "github": "levig-0"
+      }
+    ],
+    "atualizado": "2026-10-26 20:19"
+  },
+  {
     "repo": "tomygoldboimel/jogosDigitais",
     "turma": "4J11",
     "jogo": "",
