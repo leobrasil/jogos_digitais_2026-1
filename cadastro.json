@@ -170,6 +170,20 @@
     "atualizado": "2026-10-21 08:26"
   },
   {
+    "repo": "ThomasPGR/ProjetoJogosDigitais",
+    "turma": "4H11",
+    "jogo": "",
+    "issue": 34,
+    "privado": true,
+    "integrantes": [
+      {
+        "nome": "Thomas Pinheiro Grandin",
+        "github": "ThomasPGR"
+      }
+    ],
+    "atualizado": "2026-10-26 21:17"
+  },
+  {
     "repo": "CauaPero/projeto-arduino-subsurf",
     "turma": "4H12",
     "jogo": "",
