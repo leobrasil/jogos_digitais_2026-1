@@ -402,6 +402,24 @@
     "atualizado": "2026-10-19 22:06"
   },
   {
+    "repo": "MarianaChiorboli/ProjetoJogos",
+    "turma": "4J11",
+    "jogo": "FloraLume",
+    "issue": 37,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Mariana Chiorboli",
+        "github": "MarianaChiorboli"
+      },
+      {
+        "nome": "Yasmin Mendes",
+        "github": "YasminMSouza"
+      }
+    ],
+    "atualizado": "2026-10-28 07:40"
+  },
+  {
     "repo": "matheus-sdb/JogosDigitais2",
     "turma": "4J11",
     "jogo": "TrioTiles",
