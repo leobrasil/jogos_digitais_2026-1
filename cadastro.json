@@ -482,6 +482,24 @@
     "atualizado": "2026-10-22 22:11"
   },
   {
+    "repo": "gucodess/Proj-JogosDigitais",
+    "turma": "4J12",
+    "jogo": "",
+    "issue": 35,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Gustavo Bonifacio da Silva",
+        "github": "gucodess"
+      },
+      {
+        "nome": "Gustavo Oliveira Sperandio",
+        "github": "sp-gu"
+      }
+    ],
+    "atualizado": "2026-10-27 22:15"
+  },
+  {
     "repo": "LuBasacchi/Fisioterapia-pulmonar-game",
     "turma": "4J12",
     "jogo": "Sopro nas Alturas",
