@@ -90,6 +90,20 @@
     "atualizado": "2026-10-21 08:42"
   },
   {
+    "repo": "GabrielMarttynns/Projetojogos",
+    "turma": "4H11",
+    "jogo": "Projeto jogos",
+    "issue": 40,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Gabriel Souza Martins",
+        "github": "GabrielMarttynns"
+      }
+    ],
+    "atualizado": "2026-10-28 08:35"
+  },
+  {
     "repo": "GiovannaFChin/HandGripShooter",
     "turma": "4H11",
     "jogo": "HandGrip Shooter",
