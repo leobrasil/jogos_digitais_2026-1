@@ -270,6 +270,24 @@
     "atualizado": "2026-10-21 09:51"
   },
   {
+    "repo": "Mancini2803/Escalada-Espacial",
+    "turma": "4H12",
+    "jogo": "Escalada Espacial",
+    "issue": 16,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Eduardo Olivato",
+        "github": "eduardo-12s"
+      },
+      {
+        "nome": "Matheus Mancini",
+        "github": "Mancini2803"
+      }
+    ],
+    "atualizado": "2026-10-28 10:13"
+  },
+  {
     "repo": "TuideTui/Motionbound",
     "turma": "4H12",
     "jogo": "Motionbound",
