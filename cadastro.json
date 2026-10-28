@@ -270,6 +270,20 @@
     "atualizado": "2026-10-21 09:51"
   },
   {
+    "repo": "TuideTui/Motionbound",
+    "turma": "4H12",
+    "jogo": "Motionbound",
+    "issue": 42,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Arthur Cezar da Silveira Lima",
+        "github": "TuideTui"
+      }
+    ],
+    "atualizado": "2026-10-28 09:32"
+  },
+  {
     "repo": "CAIO1234-svg/JogoReabilitacao",
     "turma": "4J11",
     "jogo": "PEDALA",
