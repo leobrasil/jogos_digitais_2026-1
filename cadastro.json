@@ -316,6 +316,20 @@
     "atualizado": "2026-10-21 08:22"
   },
   {
+    "repo": "caiocarames/PulseRunner",
+    "turma": "4J11",
+    "jogo": "PulseRunner",
+    "issue": 45,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Caio Caramés Lanzelotti da Silva",
+        "github": "caiocarames"
+      }
+    ],
+    "atualizado": "2026-10-29 15:25"
+  },
+  {
     "repo": "Davidss1988/ConstelacaoEmMovimento",
     "turma": "4J11",
     "jogo": "Constelação em Movimeto",
