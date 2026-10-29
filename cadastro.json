@@ -564,6 +564,28 @@
     "atualizado": "2026-10-22 22:11"
   },
   {
+    "repo": "fernandoyoo00/Pedal-Gaiden",
+    "turma": "4J12",
+    "jogo": "Pedal Gaiden",
+    "issue": 44,
+    "privado": false,
+    "integrantes": [
+      {
+        "nome": "Erik Yutaka Takara",
+        "github": "Erikyutaka"
+      },
+      {
+        "nome": "Fernando Seong Jae Yoo",
+        "github": "fernandoyoo00"
+      },
+      {
+        "nome": "Guilherme Silva Dias",
+        "github": "iOSDeveloperGui"
+      }
+    ],
+    "atualizado": "2026-10-29 15:11"
+  },
+  {
     "repo": "GJIto/rehabilitation-game",
     "turma": "4J12",
     "jogo": "",
